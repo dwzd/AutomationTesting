@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CrossMarketCoinPrice">
+    <test name="btc-eth-price">
+        <classes>
+            <class name="com.ecvictor.api.rest.assured.o2o.BitcoinPriceTest"/>
+            <class name="com.ecvictor.api.rest.assured.o2o.coinmarketcapTest"/>
+        </classes>
+    </test>
+</suite>
+
